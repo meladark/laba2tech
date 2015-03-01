@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="laba2_8cpp" kind="file" language="C++">
+    <compoundname>laba2.cpp</compoundname>
+    <includes refid="stdafx_8h" local="yes">stdafx.h</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">ctime</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>SDKDDKVer.h</label>
+      </node>
+      <node id="2">
+        <label>targetver.h</label>
+        <link refid="targetver_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>ctime</label>
+      </node>
+      <node id="0">
+        <label>C:/Users/РњРёС…Р°РёР»/Documents/Visual Studio 2013/Projects/laba2/laba2/laba2.cpp</label>
+        <link refid="laba2.cpp"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>iostream</label>
+      </node>
+      <node id="5">
+        <label>tchar.h</label>
+      </node>
+      <node id="1">
+        <label>stdafx.h</label>
+        <link refid="stdafx_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacestd">std</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="laba2_8cpp_1a76f11d9a0a47b94f72c2d0e77fb32240" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int n</definition>
+        <argsstring></argsstring>
+        <name>n</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/РњРёС…Р°РёР»/Documents/Visual Studio 2013/Projects/laba2/laba2/laba2.cpp" line="8" column="1" bodyfile="C:/Users/РњРёС…Р°РёР»/Documents/Visual Studio 2013/Projects/laba2/laba2/laba2.cpp" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="laba2_8cpp_1a6c8ec3c3e77241328358d43697f6f840" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int first</definition>
+        <argsstring></argsstring>
+        <name>first</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/РњРёС…Р°РёР»/Documents/Visual Studio 2013/Projects/laba2/laba2/laba2.cpp" line="10" column="1" bodyfile="C:/Users/РњРёС…Р°РёР»/Documents/Visual Studio 2013/Projects/laba2/laba2/laba2.cpp" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="laba2_8cpp_1a72e27dee31b1c4c6a504fbed29542d97" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int last</definition>
+        <argsstring></argsstring>
+        <name>last</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/РњРёС…Р°РёР»/Documents/Visual Studio 2013/Projects/laba2/laba2/laba2.cpp" line="10" column="1" bodyfile="C:/Users/РњРёС…Р°РёР»/Documents/Visual Studio 2013/Projects/laba2/laba2/laba2.cpp" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="laba2_8cpp_1a06ae84329a38d5a3b18c20001db5005a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void quicksort</definition>
+        <argsstring>(int *mas, int first, int last)</argsstring>
+        <name>quicksort</name>
+        <param>
+          <type>int *</type>
+          <declname>mas</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>last</declname>
+        </param>
+        <briefdescription>
+<para>sortirovka </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>pervij element</para><para>perestanovka </para>        </inbodydescription>
+        <location file="C:/Users/РњРёС…Р°РёР»/Documents/Visual Studio 2013/Projects/laba2/laba2/laba2.cpp" line="12" column="1" bodyfile="C:/Users/РњРёС…Р°РёР»/Documents/Visual Studio 2013/Projects/laba2/laba2/laba2.cpp" bodystart="12" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="laba2_8cpp_1a353674c5af92be7fb389265cde4e5e03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int _tmain</definition>
+        <argsstring>(int argc, _TCHAR *argv[])</argsstring>
+        <name>_tmain</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>_TCHAR *</type>
+          <declname>argv</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+<para>glavnay </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/РњРёС…Р°РёР»/Documents/Visual Studio 2013/Projects/laba2/laba2/laba2.cpp" line="35" column="1" bodyfile="C:/Users/РњРёС…Р°РёР»/Documents/Visual Studio 2013/Projects/laba2/laba2/laba2.cpp" bodystart="35" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>laba2.cpp:<sp/>определяет<sp/>точку входа для<sp/>консольного приложения.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="stdafx_8h" kindref="compound">stdafx.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ctime&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="laba2_8cpp_1a76f11d9a0a47b94f72c2d0e77fb32240" kindref="member">n</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="laba2_8cpp_1a6c8ec3c3e77241328358d43697f6f840" kindref="member">first</ref>,<sp/><ref refid="laba2_8cpp_1a72e27dee31b1c4c6a504fbed29542d97" kindref="member">last</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="laba2_8cpp_1a06ae84329a38d5a3b18c20001db5005a" kindref="member">quicksort</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*mas,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="laba2_8cpp_1a6c8ec3c3e77241328358d43697f6f840" kindref="member">first</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="laba2_8cpp_1a72e27dee31b1c4c6a504fbed29542d97" kindref="member">last</ref>)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mid,<sp/>count;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>f<sp/>=<sp/><ref refid="laba2_8cpp_1a6c8ec3c3e77241328358d43697f6f840" kindref="member">first</ref>,<sp/>l<sp/>=<sp/><ref refid="laba2_8cpp_1a72e27dee31b1c4c6a504fbed29542d97" kindref="member">last</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>mid<sp/>=<sp/>mas[(f<sp/>+<sp/>l)<sp/>/<sp/>2];<sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">do</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(mas[f]&lt;mid)<sp/>f++;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(mas[l]&gt;mid)<sp/>l--;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(f<sp/>&lt;=<sp/>l)<sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>count<sp/>=<sp/>mas[f];</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mas[f]<sp/>=<sp/>mas[l];</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mas[l]<sp/>=<sp/>count;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>f++;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>l--;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(f&lt;l);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(first&lt;l)<sp/><ref refid="laba2_8cpp_1a06ae84329a38d5a3b18c20001db5005a" kindref="member">quicksort</ref>(mas,<sp/>first,<sp/>l);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(f&lt;last)<sp/><ref refid="laba2_8cpp_1a06ae84329a38d5a3b18c20001db5005a" kindref="member">quicksort</ref>(mas,<sp/>f,<sp/>last);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="laba2_8cpp_1a353674c5af92be7fb389265cde4e5e03" kindref="member">_tmain</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/>_TCHAR*<sp/>argv[])</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">{setlocale(LC_ALL,<sp/></highlight><highlight class="stringliteral">&quot;Rus&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">scanf_s(</highlight><highlight class="stringliteral">&quot;%d&quot;</highlight><highlight class="normal">,<sp/>&amp;<ref refid="laba2_8cpp_1a76f11d9a0a47b94f72c2d0e77fb32240" kindref="member">n</ref>);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*A<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">[<ref refid="laba2_8cpp_1a76f11d9a0a47b94f72c2d0e77fb32240" kindref="member">n</ref>];</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>srand(time(NULL));</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i&lt;<ref refid="laba2_8cpp_1a76f11d9a0a47b94f72c2d0e77fb32240" kindref="member">n</ref>;<sp/>i++)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scanf_s(</highlight><highlight class="stringliteral">&quot;%d&quot;</highlight><highlight class="normal">,&amp;A[i]);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>first<sp/>=<sp/>0;<sp/>last<sp/>=<sp/>n<sp/>-<sp/>1;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="laba2_8cpp_1a06ae84329a38d5a3b18c20001db5005a" kindref="member">quicksort</ref>(A,<sp/>first,<sp/>last);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Результирующий массив:<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i&lt;<ref refid="laba2_8cpp_1a76f11d9a0a47b94f72c2d0e77fb32240" kindref="member">n</ref>;<sp/>i++)<sp/>cout<sp/>&lt;&lt;<sp/>A[i]<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">[]A;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>system(</highlight><highlight class="stringliteral">&quot;pause&gt;&gt;void&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/РњРёС…Р°РёР»/Documents/Visual Studio 2013/Projects/laba2/laba2/laba2.cpp"/>
+  </compounddef>
+</doxygen>

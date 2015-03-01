@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.9.1">
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="laba2_8cpp" kind="file"><name>laba2.cpp</name>
+    <member refid="laba2_8cpp_1a76f11d9a0a47b94f72c2d0e77fb32240" kind="variable"><name>n</name></member>
+    <member refid="laba2_8cpp_1a6c8ec3c3e77241328358d43697f6f840" kind="variable"><name>first</name></member>
+    <member refid="laba2_8cpp_1a72e27dee31b1c4c6a504fbed29542d97" kind="variable"><name>last</name></member>
+    <member refid="laba2_8cpp_1a06ae84329a38d5a3b18c20001db5005a" kind="function"><name>quicksort</name></member>
+    <member refid="laba2_8cpp_1a353674c5af92be7fb389265cde4e5e03" kind="function"><name>_tmain</name></member>
+  </compound>
+  <compound refid="stdafx_8cpp" kind="file"><name>stdafx.cpp</name>
+  </compound>
+  <compound refid="stdafx_8h" kind="file"><name>stdafx.h</name>
+  </compound>
+  <compound refid="targetver_8h" kind="file"><name>targetver.h</name>
+  </compound>
+  <compound refid="dir_f396504afdc959660871b003fa10164d" kind="dir"><name>C:/Users/Михаил/Documents</name>
+  </compound>
+  <compound refid="dir_1c642cb09179f632ad2ef0d87e135d85" kind="dir"><name>C:/Users/Михаил/Documents/Visual Studio 2013/Projects/laba2/laba2</name>
+  </compound>
+  <compound refid="dir_30721de5aa2c16c1ff3fb1b0aceff6a7" kind="dir"><name>C:/Users/Михаил/Documents/Visual Studio 2013/Projects/laba2</name>
+  </compound>
+  <compound refid="dir_522c6a5f5646ab578b74ba673db92524" kind="dir"><name>C:/Users/Михаил/Documents/Visual Studio 2013/Projects</name>
+  </compound>
+  <compound refid="dir_adfa5e2b5b0879f3d4578b77e4655427" kind="dir"><name>C:/Users/Михаил/Documents/Visual Studio 2013</name>
+  </compound>
+</doxygenindex>
